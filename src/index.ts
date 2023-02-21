@@ -1,7 +1,7 @@
 import bodyParser from 'body-parser';
 import express, { Application, Request, Response } from 'express';
 import { NotFoundError } from './utils/ApiError';
-import { ErrorHandler } from './utils/middlewares/ErrorHandler';
+import { ErrorHandler } from './middlewares/ErrorHandler';
 
 const app: Application = express();
 
