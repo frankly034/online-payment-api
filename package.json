@@ -32,7 +32,14 @@
   },
   "dependencies": {
     "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "http-status-codes": "^2.2.0"
+    "http-status-codes": "^2.2.0",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "postgres": "^3.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.28.1",
+    "sequelize-typescript": "^2.1.5"
   }
 }
