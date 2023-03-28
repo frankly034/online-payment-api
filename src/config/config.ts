@@ -8,6 +8,8 @@ const config = {
   dbPassword: process.env.POSTGRES_PASSWORD,
   dbName: process.env.POSTGRES_DB,
   appPort: process.env.APPLICATION_PORT,
+  paystackSecret: process.env.PAYSTACK_SECRET_KEY,
+  paystackUrl: process.env.PAYSTACK_BASE_URL,
 };
 
 export default config;
