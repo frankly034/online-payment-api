@@ -8,6 +8,7 @@ This is a dockerized API built with Typescript and Express to illustrate how to 
 
 - [Basic Payment Flow](#basic-payment-flow)
 - [Features](#features)
+- [Postman Documentation](#postman-documentation)
 - [Concepts Employed](#concepts-employed)
 - [Built With](#built-with)
 - [Required Installations](#required-installations)
@@ -39,6 +40,12 @@ Payment systems are built pretty much alike with almost the same flow.
 - [Sequelize setup](https://youtu.be/MGu7mKI-2_4) -[BaseAPI setup](https://youtu.be/5zxFtrRgkZs)
 - [Paystack api integration](https://youtu.be/yvSERDjXmw0)
 - [Router and controller setup](https://youtu.be/rzdv_hEJ0WQ)
+
+<!-- postman documentation -->
+
+## Postman Documentation
+
+To explore the APIs see [documentation](https://documenter.getpostman.com/view/17383417/2s93RXtqr5)
 
 <!-- concepts employed -->
 
@@ -95,7 +102,6 @@ your@pc:~$ docker-compose up
 
 ## Future Improvements
 
-- Add api documentation
 - Add tests
 - Add data validation
 - Add thank you email to donors
