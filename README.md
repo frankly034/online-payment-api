@@ -46,6 +46,8 @@ Payment systems are built pretty much alike with almost the same flow.
 ## Postman Documentation
 
 To explore the APIs see [documentation](https://documenter.getpostman.com/view/17383417/2s93RXtqr5)
+<img width="1440" alt="Screenshot 2023-04-05 at 23 29 11" src="https://user-images.githubusercontent.com/31358867/230225854-6b22ab4c-f983-4454-9972-cc967573c50f.png">
+
 
 <!-- concepts employed -->
 
