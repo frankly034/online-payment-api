@@ -36,7 +36,6 @@ Payment systems are built pretty much alike with almost the same flow.
 - [Express app setup with typescript](https://youtu.be/n2aiDxWKR7g)
 - [Linting and code formatting](https://youtu.be/gv7etqSx-t8)
 - [Error handling](https://youtu.be/ShhwWG0S-D8)
-- [Docker setup with app, postgres and pgadmin](https://youtu.be/lqZpNkNzuOc)
 - [Sequelize setup](https://youtu.be/MGu7mKI-2_4) -[BaseAPI setup](https://youtu.be/5zxFtrRgkZs)
 - [Paystack api integration](https://youtu.be/yvSERDjXmw0)
 - [Router and controller setup](https://youtu.be/rzdv_hEJ0WQ)
@@ -47,7 +46,6 @@ Payment systems are built pretty much alike with almost the same flow.
 
 To explore the APIs see [documentation](https://documenter.getpostman.com/view/17383417/2s93RXtqr5)
 <img width="1440" alt="Screenshot 2023-04-05 at 23 29 11" src="https://user-images.githubusercontent.com/31358867/230225854-6b22ab4c-f983-4454-9972-cc967573c50f.png">
-
 
 <!-- concepts employed -->
 
@@ -65,22 +63,18 @@ To explore the APIs see [documentation](https://documenter.getpostman.com/view/1
 - Express
 - Postgres
 - Sequelize
-- Docker
 
 <!-- REQUIRED INSTALLATION -->
 
 ## REQUIRED INSTALLATIONS
 
 - Node
-- Docker desktop
-
+- Postgres (hosted/cloud service)
 <!-- INSTALLATION -->
 
 ## Installation of This Repository
 
 Once you have installed the requiered packages shown on the [Required Installations](#required-installations), proceed with the following steps
-
-`Ensure you have docker desktop installed and running`
 
 Clone the Repository,
 
@@ -94,10 +88,16 @@ Move to the downloaded folder
 your@pc:~$ cd online-payment-api
 ```
 
-Run with docker-compose
+Install dependencies with npm
 
 ```Shell
-your@pc:~$ docker-compose up
+your@pc:~$ npm install
+```
+
+Run application with npm
+
+```Shell
+your@pc:~$ npm run dev
 ```
 
 <!-- FUTURE IMPROVEMENTS -->
