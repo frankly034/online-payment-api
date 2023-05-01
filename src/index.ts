@@ -30,12 +30,12 @@ app.use((req: Request) => {
 
 app.use(ErrorHandler.handle);
 
-const PORT = config.appPort || 3000;
+const PORT = Number(config.appPort) || 3000;
 
 const startServer = async () => {
   try {
     await connection.sync();
-    app.listen(PORT, () => {
+    app.listen(PORT, '0.0.0.0', () => {
       console.log(`Server running on port ${PORT}`);
     });
   } catch (error) {

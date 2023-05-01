@@ -7,7 +7,7 @@ const config = {
   dbUser: process.env.POSTGRES_USER,
   dbPassword: process.env.POSTGRES_PASSWORD,
   dbName: process.env.POSTGRES_DB,
-  appPort: process.env.APPLICATION_PORT,
+  appPort: process.env.PORT,
   paystackSecret: process.env.PAYSTACK_SECRET_KEY,
   paystackUrl: process.env.PAYSTACK_BASE_URL,
 };
